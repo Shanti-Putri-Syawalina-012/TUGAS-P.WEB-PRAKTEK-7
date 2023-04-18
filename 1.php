@@ -6,7 +6,7 @@
 <body>
 	<h1>Demo Koneksi Database MySQL</h1>
 	<?php
-	$conn = mysqli_connect("localhost","root","","my_db");
+	$conn = mysqli_connect("localhost","root","","mydb");
 
 	// Check connection
 	if (mysqli_connect_error()) {
